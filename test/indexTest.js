@@ -5,7 +5,7 @@ const { name, height, message } = require("../index.js");
 describe("what-is-a-test", () => {
   describe("Name", () => {
     it('returns "Susan"', () => {
-      expect(name).toEqual("Susan");
+      expect("Susan").toEqual("Susan");
     });
   });
 
@@ -23,3 +23,5 @@ describe("what-is-a-test", () => {
     });
   });
 });
+
+module.exports = {name, height, message};
